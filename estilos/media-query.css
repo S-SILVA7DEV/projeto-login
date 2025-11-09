@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* Pequenas telas até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Pc: 992px até 1200px
+Grandes telas acima de 1200px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #F2AC57 , #8C4E2A );
+    }
+    section#login {
+        width: 90vw;
+    
+    }
+    section#login > div#imagem {
+        float: left; /* Alinha a imagem à esquerda */
+        width: 40%; /* Define a largura da imagem */
+        height: 100%; /* Define a altura da imagem */
+        
+    }
+
+    section#login > div#formulario {
+        float: right; /* Alinha o formulário à direita */
+        width: 60%; /* Define a largura do formulário */
+        height: 100%; /* Define a altura do formulário */
+        padding: 20px; /* Adiciona um espaçamento interno */
+    }
+}
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #261B1B , #F2AC57 );
+    }
+    section#login {
+        width: 950px;
+    }
+
+    section#login > div#imagem {
+        float: left; /* Alinha a imagem à esquerda */
+        width: 50%; /* Define a largura da imagem */
+        height: 100%; /* Define a altura da imagem */
+        
+    }
+    section#login > div#formulario {
+        float: right; /* Alinha o formulário à direita */
+        width: 50%; /* Define a largura do formulário */
+        height: 100%; /* Define a altura do formulário */
+        padding: 20px; /* Adiciona um espaçamento interno */
+    }
+}
