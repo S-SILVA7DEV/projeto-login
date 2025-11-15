@@ -36,13 +36,13 @@ Grandes telas acima de 1200px */
     }
 
     section#login > div#imagem {
-        float: left; /* Alinha a imagem à esquerda */
+        float: right; /* Alinha a imagem à esquerda */
         width: 50%; /* Define a largura da imagem */
         height: 100%; /* Define a altura da imagem */
         
     }
     section#login > div#formulario {
-        float: right; /* Alinha o formulário à direita */
+        float: left; /* Alinha o formulário à direita */
         width: 50%; /* Define a largura do formulário */
         height: 100%; /* Define a altura do formulário */
         padding: 20px; /* Adiciona um espaçamento interno */
